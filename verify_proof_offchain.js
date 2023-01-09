@@ -4,4 +4,4 @@ const verificationKey = JSON.parse(
   fs.readFileSync("./semaphore.json", "utf-8")
 );
 
-await verifyProof(verificationKey, fullProof); // true or false.
+await verifyProof(verificationKey, fullProof); // returns true or false.
